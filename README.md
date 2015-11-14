@@ -81,4 +81,9 @@ samtools sort -o final_srt.sam -O sam -T temp final.sam
 ## get sorted sam in fina_srt.sam
 ```
 
-## See the results
+## View the results
+```bash
+samtools view -bS final_srt.sam > final_srt.bam  # Convert it to bam
+samtools index final_srt.bam # Index it by samtools index
+# View in IGV or other alignments viewer.
+```
