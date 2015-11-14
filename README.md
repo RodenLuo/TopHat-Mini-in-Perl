@@ -87,8 +87,8 @@ samtools view -bS final_srt.sam > final_srt.bam  # Convert it to bam
 samtools index final_srt.bam # Index it by samtools index
 # View in IGV or other alignments viewer.
 ```
-![overall_figure](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
-![zoom_in](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+![overall_figure](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/overall_figure.png)
+![zoom_in](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/zoom_in.png)
 
 ## Putative novel loci for WASH7P
 View the same bam at different position let me find the putative novel gene loci
@@ -96,16 +96,36 @@ View the same bam at different position let me find the putative novel gene loci
 ####Other sites with anotation:
 chr2: WASH2P, DDX11L2
 
-![chr2_WASH2P_DDX11L2](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+![chr2_WASH2P_DDX11L2](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/putative_novel_loci_for_WASH7P/chr2_WASH2P_DDX11L2.png)
 
 chr9: WASH1, DDLX11L5
 
-![chr9_WASH1_DDLX11L5](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+![chr9_WASH1_DDLX11L5](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/putative_novel_loci_for_WASH7P/chr9_WASH1_DDLX11L5.png)
 
-chr12: NR_028269.png
+chr12: NR_028269
 
-![chr12_NR_028269.png](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+![chr12_NR_028269.png](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/putative_novel_loci_for_WASH7P/chr12_NR_028269.png)
 
 chr15: WASH3P, DDX11L9
 
-![chr15_WASH3P_DDX11L9](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+![chr15_WASH3P_DDX11L9](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/putative_novel_loci_for_WASH7P/chr15_WASH3P_DDX11L9.png)
+
+####Other sites without anotation:
+chr16: ?, DDX11L10
+
+![chr16_?_DDX11L10](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/putative_novel_loci_for_WASH7P/chr16_%3F_DDX11L10.png)
+
+chrX:
+
+![chrX](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/putative_novel_loci_for_WASH7P/chrX.png)
+
+chrY:
+
+![chrY](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/putative_novel_loci_for_WASH7P/chrY.png)
+
+####Evidence from BLAST:
+Use WASH7P gene sequence([NR_024540.1.fa](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/NR_024540.1.fa)) to do BLAST, results:
+
+![BLAST_result](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/putative_novel_loci_for_WASH7P/BLAST_result.png)
+
+So, the next step, we may need to explore in detail to see whether these three positions (on: chr16, chrX, chrY) is novel gene loci or not.
