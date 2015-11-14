@@ -95,8 +95,17 @@ View the same bam at different position let me find the putative novel gene loci
 
 ####Other sites with anotation:
 chr2: WASH2P, DDX11L2
+
 ![chr2_WASH2P_DDX11L2](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
 
-chr2: WASH2P, DDX11L2
-![chr2_WASH2P_DDX11L2](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+chr9: WASH1, DDLX11L5
 
+![chr9_WASH1_DDLX11L5](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+
+chr12: NR_028269.png
+
+![chr12_NR_028269.png](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+
+chr15: WASH3P, DDX11L9
+
+![chr15_WASH3P_DDX11L9](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
