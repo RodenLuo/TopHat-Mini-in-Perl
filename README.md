@@ -3,6 +3,16 @@ Implementation of the main function, splicing, of TopHat in perl
 
 This is the course project for Bioinformatics(BI3204 2015.03-2015.07) at [SUSTC](http://www.sustc.edu.cn/). 
 
+# Table of Contents
+  * [Requirements](#requirements)
+  * [Introduction to TopHat pipeline](##introduction-to-tophat-pipeline)
+  * [Preprocessing from fastq](#Preprocessing-from-fastq)
+  * [Tophat-Mini-in-Perl](#Tophat-Mini-in-Perl)
+  * [View the results](#View-the-results)
+  * [Putative novel loci for WASH7P](#putative-novel-loci-for-WASH7P)
+        * [Other sites with anotations:](#other-sites-with-anotations)
+        * [Other sites without anotation:](#Other-sites-without-anotation)
+        * [Evidence from BLAST:](#Evidence-from-BLAST)
 
 ## Requirements
 [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml), already tested on version 2.2.4
