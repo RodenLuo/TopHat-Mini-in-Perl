@@ -12,5 +12,5 @@ samtools, already tested on version 1.2
 ## Introduction to TopHat pipeline
 ![Image of TopHat pipeline](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
 
-Reference link: [Trapnell C, Pachter L, Salzberg S L. TopHat: discovering splice junctions with RNA-Seq[J]. Bioinformatics, 2009, 25(9): 1105-1111.](http://bioinformatics.oxfordjournals.org/content/25/9/1105.full)
+>Reference link: [Trapnell C, Pachter L, Salzberg S L. TopHat: discovering splice junctions with RNA-Seq[J]. Bioinformatics, 2009, 25(9): 1105-1111.](http://bioinformatics.oxfordjournals.org/content/25/9/1105.full)
 
