@@ -47,7 +47,7 @@ samtools sort -n -o unaln_splitted_srt_name.sam -O sam -T temp unaln_splitted_sr
 ```bash
 grep -n '>chr' <USCS ref.fa> > ref.tdx
 # I used this method to build a special index, tdx.
-# Sorry that when I rewrote it, I did not realize this step may cause a probelm for the reference which is not downloaded from USCS.
+# Sorry that when I rewrote it, I did not realize this step may cause a probelm for the reference which is not downloaded from UCSC.
 ```
 
 ```bash
