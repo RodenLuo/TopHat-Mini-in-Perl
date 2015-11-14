@@ -9,8 +9,7 @@ Bowtie2, already tested on version 2.2.4
 
 samtools, already tested on version 1.2
 
-## Introduction to Tophat algorithm
-
+## Introduction to Tophat pipeline
 
 Reference link: [Trapnell C, Pachter L, Salzberg S L. TopHat: discovering splice junctions with RNA-Seq[J]. Bioinformatics, 2009, 25(9): 1105-1111.](http://bioinformatics.oxfordjournals.org/content/25/9/1105.full)
 
