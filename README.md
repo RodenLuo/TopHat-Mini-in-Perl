@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [TopHat-Mini-in-Perl](#tophat-mini-in-perl)
+  - [Requirements](#requirements)
+  - [Introduction to TopHat pipeline](#introduction-to-tophat-pipeline)
+  - [Preprocessing from fastq](#preprocessing-from-fastq)
+  - [Tophat-Mini-in-Perl](#tophat-mini-in-perl)
+  - [View the results](#view-the-results)
+  - [Putative novel loci for WASH7P](#putative-novel-loci-for-wash7p)
+      - [Other sites with anotation:](#other-sites-with-anotation)
+      - [Other sites without anotations:](#other-sites-without-anotations)
+      - [Evidence from BLAST:](#evidence-from-blast)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # TopHat-Mini-in-Perl
 Implementation of the main function, splicing, of TopHat in perl
 
