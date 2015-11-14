@@ -87,3 +87,16 @@ samtools view -bS final_srt.sam > final_srt.bam  # Convert it to bam
 samtools index final_srt.bam # Index it by samtools index
 # View in IGV or other alignments viewer.
 ```
+![overall_figure](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+![zoom_in](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+
+## Putative novel loci for WASH7P
+View the same bam at different position let me find the putative novel gene loci
+
+####Other sites with anotation:
+chr2: WASH2P, DDX11L2
+![chr2_WASH2P_DDX11L2](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+
+chr2: WASH2P, DDX11L2
+![chr2_WASH2P_DDX11L2](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
+
