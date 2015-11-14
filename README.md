@@ -19,11 +19,11 @@ This is the course project for Bioinformatics(BI3204 2015.03-2015.07) at [SUSTC]
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Requirements
-[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml), already tested on version 2.2.4
+[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml), already tested with version 2.2.4
 
-[samtools](http://www.htslib.org/), already tested on version 1.2
+[samtools](http://www.htslib.org/), already tested with version 1.2
 
-Human genome reference file, already tested on hg19.fa
+Human genome reference file, already tested with hg19.fa
 
 ## Introduction to TopHat pipeline
 ![Image of TopHat pipeline](https://github.com/RodenLuo/TopHat-Mini-in-Perl/blob/master/images/tophat_pipeline.png)
