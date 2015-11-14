@@ -54,7 +54,12 @@ grep -n '>chr' <USCS ref.fa> > ref.tdx
 perl splice.pl unaln_splitted_srt_name.sam 23.sam <ref.tdx> <ref.fa> [max gap]
 # Find splice junction point at segments 2 and 3.
 # This command will output 23.sam and 23.sam.splice_junction.txt. The second stores the position which is needed by the next step.
-# Max gap is optional [20000]
+# Max gap is optional. [20000]
+
+perl ht_splice.pl unaln_splitted_srt_name.sam 14.sam 23.sam.splice_junction.txt <ref.tdx> <ref.fa> [max gap]
+# Find splice junction point at segments 1 and 4.
+# This command will output 14.sam.
+# Max gap is optional. [20000]
 ```
 
 ```bash
@@ -62,8 +67,8 @@ head -26 unaln_splitted_srt_name.sam >final.sam
 cat 14.sam >>final.sam
 cat 23.sam >>final.sam
 samtools sort -o final_srt.sam -O sam -T temp final.sam
-## add header
-## get final sorted sam
+## add header, combine 23.sam and 14.sam and output into final.sam
+## get final sorted sam in fina_srt.sam
 ```
 
 ## See the results
