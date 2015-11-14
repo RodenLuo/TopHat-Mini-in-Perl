@@ -63,12 +63,22 @@ perl ht_splice.pl unaln_splitted_srt_name.sam 14.sam 23.sam.splice_junction.txt 
 ```
 
 ```bash
+
+##Output spliced reads only:
 head -26 unaln_splitted_srt_name.sam >final.sam  
 cat 14.sam >>final.sam
 cat 23.sam >>final.sam
 samtools sort -o final_srt.sam -O sam -T temp final.sam
 ## add header, combine 23.sam and 14.sam and output into final.sam
 ## get final sorted sam in fina_srt.sam
+
+## OR output spliced reads and the aligned intact reads
+cat aligned.sam >final.full.sam
+cat 14.sam >>final.full.sam
+cat 23.sam >>final.full.sam
+samtools sort -o final_srt.sam -O sam -T temp final.sam
+## combine 23.sam and 14.sam as well as aligned.sam, output into final.sam
+## get sorted sam in fina_srt.sam
 ```
 
 ## See the results
